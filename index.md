@@ -39,7 +39,7 @@ Cette méthode est plus complexe et précise. mais les paramètres modifiables n
 
 - **Méthode 3**
 C'est notre méthode. (nous nous sommes inspirés des deux méthodes précédentes.)<br>
-explication :<br>
+**explication** :<br>
 On calcule d'abord la [force génératrice](https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html) de la marée, <br>
 puis on calcule l'angle correspondant au temps donné en heures, pour cela on suppose qu'une journée complète équivaut à 2π radians.<br>
 après on multiplie la somme des forces gravitationnelles du Soleil et de la Lune par la valeur absolue du sinus de l'angle temporel.<br>
