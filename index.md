@@ -38,18 +38,18 @@ cette méthode utilise les [Constituants harmoniques](https://tidesandcurrents.n
 Cette méthode est plus complexe et précise. mais les paramètres modifiables n'étaient pas ceux que nous recherchions. nous décidons donc de ne pas utiliser cette méthode également.
 
 - **Méthode 3**
-C'est notre méthode. (nous nous sommes inspirés des deux méthodes précédentes.)
-explication :
-On calcule d'abord la [force génératrice](https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html) de la marée, 
-puis on calcule l'angle correspondant au temps donné en heures, pour cela on suppose qu'une journée complète équivaut à 2π radians.
-après on multiplie la somme des forces gravitationnelles du Soleil et de la Lune par la valeur absolue du sinus de l'angle temporel.
-Ce résultat est ensuite multiplié par la plage de marée donnée et divisé par un scalaire constant pour mettre le résultat à l'échelle de manière appropriée. 
-Enfin, le niveau de marée initial est ajouté pour obtenir le niveau de marée prévu.
-Cette méthode est assez simplifiée et différente des processus physiques réels qui régissent les marées. 
-Le calcul suppose que :
-la rotation et la révolution de la Terre autour du Soleil sont circulaires.
-l'orbite de la Lune autour de la Terre est circulaire.
-il ne considère que les effets de la lune et du soleil sur les marées et écarte tous les autres facteurs.
+C'est notre méthode. (nous nous sommes inspirés des deux méthodes précédentes.)<br>
+explication :<br>
+On calcule d'abord la [force génératrice](https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html) de la marée, <br>
+puis on calcule l'angle correspondant au temps donné en heures, pour cela on suppose qu'une journée complète équivaut à 2π radians.<br>
+après on multiplie la somme des forces gravitationnelles du Soleil et de la Lune par la valeur absolue du sinus de l'angle temporel.<br>
+Ce résultat est ensuite multiplié par la plage de marée donnée et divisé par un scalaire constant pour mettre le résultat à l'échelle de manière appropriée. <br>
+Enfin, le niveau de marée initial est ajouté pour obtenir le niveau de marée prévu.<br>
+Cette méthode est assez simplifiée et différente des processus physiques réels qui régissent les marées. <br>
+Le calcul suppose que :<br>
+la rotation et la révolution de la Terre autour du Soleil sont circulaires.<br>
+l'orbite de la Lune autour de la Terre est circulaire.<br>
+il ne considère que les effets de la lune et du soleil sur les marées et écarte tous les autres facteurs.<br>
 
 
 #### comparaison entres les méthodes
@@ -57,16 +57,16 @@ il ne considère que les effets de la lune et du soleil sur les marées et écar
 voici une comparaison entre les trois méthodes et une prédiction de la NOAA
 
 <p float="left">
-  <img src="/Images/method1.png" width="300" />
-  <img src="/Images/method2.png" width=300" />
-  <img src="/Images/method3.png" width=300" />
-  <img src="/Images/NOAA.png" width="300" />
+  <img src="/Images/method1.png" width="200" />
+  <img src="/Images/method2.png" width=200" />
+  <img src="/Images/method3.png" width=200" />
+  <img src="/Images/NOAA.png" width="200" />
 </p>
 
-Nous pouvons voir qu'il y a toujours un motif répétitif (similaire à une fonction sinusoïdale) même si les valeurs peuvent différer.
-Aussi nous pourrions ajouter une valeur aléatoire à notre méthode (méthode 3) pour la rendre plus réelle mais nous pensons que pour modéliser cela suffit.
-Alors en prenant la troisième méthode maintenant nous avons plusieurs paramètres : la masse du Soleil, la masse de la Lune, la distance entre la planète et la Lune, la Distance entre la planète et le soleil, l'heure, le marnage et la marée initiale. Nous pourrions également modifier la fonction pour ajouter plusieurs lunes. 
-Voici un exemple de ce qui se passe si la distance entre la terre et la lune augmente ou diminue. Pour voir le code et toutes les comparaisons, consultez le notebook jupyter.
+Nous pouvons voir qu'il y a toujours un motif répétitif (similaire à une fonction sinusoïdale) même si les valeurs peuvent différer.<br>
+Aussi nous pourrions ajouter une valeur aléatoire à notre méthode (méthode 3) pour la rendre plus réelle mais nous pensons que pour modéliser cela suffit.<br>
+Alors en prenant la troisième méthode maintenant nous avons plusieurs paramètres : la masse du Soleil, la masse de la Lune, la distance entre la planète et la Lune, la Distance entre la planète et le soleil, l'heure, le marnage et la marée initiale. Nous pourrions également modifier la fonction pour ajouter plusieurs lunes. <br>
+Voici un exemple de ce qui se passe si la distance entre la terre et la lune augmente ou diminue. Pour voir le code et toutes les comparaisons, consultez le notebook jupyter.<br>
 
 <p float="left">
   <img src="/Images/increasing_distance_moon.png" width="400" />
@@ -75,8 +75,8 @@ Voici un exemple de ce qui se passe si la distance entre la terre et la lune aug
 
 #### conclusion 
 
-La potentialité d'habitabilité d'une planète ne peut pas être déterminée uniquement en analysant la dynamique des marées car il existe des autres facteurs qui contribuent également à son habitabilité, tels que la distance de la planète par rapport au soleil, la composition atmosphérique, la température de surface, le champ magnétique et la présence d'eau liquide.
-Mais on pense que les forces de marée jouent un rôle important dans l'environnement d'une planète. Dans certains cas, des forces de marée fortes peuvent être bénéfiques pour l'habitabilité, car elles peuvent stimuler l'activité géologique et réguler le climat de la planète. Cependant, dans d'autres cas, des forces de marée excessives peuvent être préjudiciables à l'habitabilité en provoquant un chauffage extrême, un verrouillage des marées ou des processus géologiques destructeurs.
+La potentialité d'habitabilité d'une planète ne peut pas être déterminée uniquement en analysant la dynamique des marées car il existe des autres facteurs qui contribuent également à son habitabilité, tels que la distance de la planète par rapport au soleil, la composition atmosphérique, la température de surface, le champ magnétique et la présence d'eau liquide.<br>
+Mais on pense que les forces de marée jouent un rôle important dans l'environnement d'une planète. Dans certains cas, des forces de marée fortes peuvent être bénéfiques pour l'habitabilité, car elles peuvent stimuler l'activité géologique et réguler le climat de la planète. Cependant, dans d'autres cas, des forces de marée excessives peuvent être préjudiciables à l'habitabilité en provoquant un chauffage extrême, un verrouillage des marées ou des processus géologiques destructeurs.<br>
 
 Par conséquent, même si la prévision des marées est une tâche complexe nous croyons que l'analyse de la dynamique des marées peut fournir des informations sur le potentiel d'habitabilité d'une planète, mais elle doit être considérée en conjonction avec d'autres facteurs.
 
