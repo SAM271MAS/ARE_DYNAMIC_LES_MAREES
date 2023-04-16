@@ -1,6 +1,6 @@
 # version française
 Ce projet est pour notre classe "ARE DYNAMIC" <br>
-Pour comprendre le projet, nous vous recommandons de lire [ceci](https://sam271mas.github.io/ARE_DYNAMIQUE_LES_MAREES/) avant
+Pour comprendre le projet, nous vous recommandons de lire [ceci](https://sam271mas.github.io/ARE_DYNAMIC_LES_MAREES/) avant
 
 ### Le contenu de ce répertoire:
 - tides.ipynb : Un fichier Jupyter Notebook contenant le code utilisé et toutes les simulations que nous avons testées.
@@ -11,7 +11,7 @@ Pour comprendre le projet, nous vous recommandons de lire [ceci](https://sam271m
 
 # English version
 This project is for our class "ARE DYNAMIC" <br>
-To understand the project we recommend reading [this](https://sam271mas.github.io/ARE_DYNAMIQUE_LES_MAREES/) before
+To understand the project we recommend reading [this](https://sam271mas.github.io/ARE_DYNAMIC_LES_MAREES/) before
 
 
 ### The content of this repository :
