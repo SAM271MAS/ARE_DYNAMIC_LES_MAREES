@@ -57,10 +57,10 @@ il ne considère que les effets de la lune et du soleil sur les marées et écar
 voici une comparaison entre les trois méthodes et une prédiction de la NOAA
 
 <p float="left">
-  <img src="https://github.com/SAM271MAS/ARE_DYNAMIQUE_LES_MAREES/blob/main/Images/method1.png" width="200" />
-  <img src="https://github.com/SAM271MAS/ARE_DYNAMIQUE_LES_MAREES/blob/main/Images/method2.png" width=200" />
-  <img src="https://github.com/SAM271MAS/ARE_DYNAMIQUE_LES_MAREES/blob/main/Images/method3.png" width=200" />
-  <img src="https://github.com/SAM271MAS/ARE_DYNAMIQUE_LES_MAREES/blob/main/Images/NOAA.png" width="200" />
+  <img src="Images/method1.png" width="200" />
+  <img src="Images/method2.png" width="200" />
+  <img src="Images/method3.png" width="200" />
+  <img src="Images/NOAA.png" width="200" />
 </p>
 
 Nous pouvons voir qu'il y a toujours un motif répétitif (similaire à une fonction sinusoïdale) même si les valeurs peuvent différer.<br>
@@ -70,7 +70,7 @@ Voici un exemple de ce qui se passe si la distance entre la terre et la lune aug
 
 <p float="left">
   <img src="/Images/increasing_distance_moon.png" width="400" />
-  <img src="/Images/decreasing_distance_moon.png " width="400" />
+  <img src="/Images/decreasing_distance_moon.png" width="400" />
 </p>
 
 #### conclusion 
