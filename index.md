@@ -60,7 +60,7 @@ voici une comparaison entre les trois méthodes et une prédiction de la NOAA
   <img src="/Images/method1.png" width="200" />
   <img src="/Images/method2.png" width=200" />
   <img src="/Images/method3.png" width=200" />
-  <img src="/Images/NOAA.png" width="200" />
+  <img src="https://github.com/SAM271MAS/ARE_DYNAMIQUE_LES_MAREES/blob/main/Images/NOAA.png" width="200" />
 </p>
 
 Nous pouvons voir qu'il y a toujours un motif répétitif (similaire à une fonction sinusoïdale) même si les valeurs peuvent différer.<br>
