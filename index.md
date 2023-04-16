@@ -68,7 +68,7 @@ voici une comparaison entre les trois méthodes et une prédiction de la [NOAA](
 Nous pouvons voir qu'il y a toujours un motif répétitif (similaire à une fonction sinusoïdale) même si les valeurs peuvent différer.<br>
 Aussi nous pourrions ajouter une valeur aléatoire à notre méthode (méthode 3) pour la rendre plus réelle mais nous pensons que pour modéliser cela suffit.<br>
 Alors en prenant la troisième méthode maintenant nous avons plusieurs paramètres : la masse du Soleil, la masse de la Lune, la distance entre la planète et la Lune, la Distance entre la planète et le soleil, l'heure, le marnage et la marée initiale. Nous pourrions également modifier la fonction pour ajouter plusieurs lunes. <br>
-Voici un exemple de ce qui se passe si la distance entre la terre et la lune augmente ou diminue. Pour voir le code et toutes les comparaisons, consultez le notebook jupyter.<br>
+Voici un exemple de ce qui se passe si la distance entre la terre et la lune augmente ou diminue. Pour voir le code et toutes les comparaisons, consultez le [notebook jupyter](https://github.com/SAM271MAS/ARE_DYNAMIC_LES_MAREES/blob/main/tides.ipynb).<br>
 
 <p float="left">
   <img src="Images/increasing_distance_moon.png" width="400" />
