@@ -9,8 +9,8 @@ For our class "ARE DYNAMIC," we aspire  to create a dynamic tidal model capable 
 ## Présentation de l'équipe
 
 
-| Ayham | Hadil | Sam | Suleiman |
-| --- | --- | --- | --- |
+| Ayham | Iman | Hadil | Sam | Suleiman |
+| --- | --- | --- | --- | --- |
 
 
 ## Description synthétique du projet
