@@ -36,27 +36,27 @@ cette méthode utilise la [Rule of twelfths](https://en.wikipedia.org/wiki/Rule_
 C'est une méthode très simple avec peu de paramètres à modifier, nous ne l'avons donc pas utilisée. mais il est assez important pour avoir une idée générale sur la façon dont les marées augmentent.
 
 - **Méthode 2**
-cette méthode utilise les [Constituants harmoniques](https://tidesandcurrents.noaa.gov/about_harmonic_constituents.html)
-Cette méthode est plus complexe et précise. mais les paramètres modifiables n'étaient pas ceux que nous recherchions. nous décidons donc de ne pas utiliser cette méthode également.
+Cette méthode utilise les [Constituants harmoniques](https://tidesandcurrents.noaa.gov/about_harmonic_constituents.html).<br>
+Cette méthode est plus complexe et précise. Mais les paramètres modifiables n'étaient pas ceux que nous recherchions. Nous décidons donc de ne pas utiliser cette méthode également.
 
 - **Méthode 3**
 C'est notre méthode. (nous nous sommes inspirés des deux méthodes précédentes.)<br>
 **explication** :<br>
-On calcule d'abord la [force génératrice](https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html) de la marée, <br>
-puis on calcule l'angle correspondant au temps donné en heures, pour cela on suppose qu'une journée complète équivaut à 2π radians.<br>
-après on multiplie la somme des forces gravitationnelles du Soleil et de la Lune par la valeur absolue du sinus de l'angle temporel.<br>
-Ce résultat est ensuite multiplié par la plage de marée donnée et divisé par un scalaire constant pour mettre le résultat à l'échelle de manière appropriée. <br>
+On calcule d'abord la [force génératrice](https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html) de la marée. <br>
+Puis on calcule l'angle correspondant au temps donné en heures, pour cela on suppose qu'une journée complète équivaut à 2π radians.<br>
+Après on multiplie la somme des forces gravitationnelles du Soleil et de la Lune par la valeur absolue du sinus de l'angle temporel.<br>
+Ce résultat est ensuite multiplié par la plage de marée donnée et divisé par un scalaire pour mettre le résultat à l'échelle de manière appropriée. <br>
 Enfin, le niveau de marée initial est ajouté pour obtenir le niveau de marée prévu.<br>
 Cette méthode est assez simplifiée et différente des processus physiques réels qui régissent les marées. <br>
 Le calcul suppose que :<br>
-la rotation et la révolution de la Terre autour du Soleil sont circulaires.<br>
-l'orbite de la Lune autour de la Terre est circulaire.<br>
-il ne considère que les effets de la lune et du soleil sur les marées et écarte tous les autres facteurs.<br>
+La rotation et la révolution de la Terre autour du Soleil sont circulaires.<br>
+L'orbite de la Lune autour de la Terre est circulaire.<br>
+Il ne considère que les effets de la lune et du soleil sur les marées et écarte tous les autres facteurs.<br>
 
 
 #### comparaison entres les méthodes
 
-voici une comparaison entre les trois méthodes et une prédiction de la [NOAA](https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration)
+Voici une comparaison entre les trois méthodes et une prédiction de la [NOAA](https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration)
 
 <p float="left">
   <img src="Images/method1.png" width="200" />
