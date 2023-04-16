@@ -69,8 +69,8 @@ Alors en prenant la troisième méthode maintenant nous avons plusieurs paramèt
 Voici un exemple de ce qui se passe si la distance entre la terre et la lune augmente ou diminue. Pour voir le code et toutes les comparaisons, consultez le notebook jupyter.<br>
 
 <p float="left">
-  <img src="/Images/increasing_distance_moon.png" width="400" />
-  <img src="/Images/decreasing_distance_moon.png" width="400" />
+  <img src="Images/increasing_distance_moon.png" width="400" />
+  <img src="Images/decreasing_distance_moon.png" width="400" />
 </p>
 
 #### conclusion 
