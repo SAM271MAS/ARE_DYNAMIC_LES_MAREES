@@ -56,7 +56,7 @@ il ne considère que les effets de la lune et du soleil sur les marées et écar
 
 #### comparaison entres les méthodes
 
-voici une comparaison entre les trois méthodes et une prédiction de la NOAA
+voici une comparaison entre les trois méthodes et une prédiction de la [NOAA](https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration)
 
 <p float="left">
   <img src="Images/method1.png" width="200" />
